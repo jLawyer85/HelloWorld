@@ -20,7 +20,22 @@ public class Tier {
         return tiername;
     }
 
+    /**
+     * Version ist veraltet und sollte nicht mehr verwendet werden.
+     * Stattdessen sollte die Methode bellen verwendet werden.
+     */
+    @Deprecated
     public void bellen(){
         System.out.println(getTiername() + ": WuffWuff");
+    }
+
+    /**
+     * Die Methode gibt das übergebene Tierspezifische Geräusche auf
+     * der Konsole aus.
+     * @param Geräusch String
+     *
+     */
+    public void Tiergeräusch(String Geräusch){
+        System.out.println(getTiername() + ": " + Geräusch);
     }
 }
