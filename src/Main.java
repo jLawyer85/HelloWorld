@@ -7,6 +7,7 @@ public class Main {
         }
         System.out.println(z);
         System.out.println("END.");
+        System.out.println(("PI mal Daumen"));
     }
 }
 
